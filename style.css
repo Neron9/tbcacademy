@@ -1,0 +1,219 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: #f4f4f4;
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+}
+
+.container {
+  max-width: 980px;
+  margin: auto;
+}
+
+header {
+  width: 100%;
+  height: 84px;
+  font-size: 14px;
+  background-color: #1a1e1f;
+}
+
+header .container nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 84px;
+}
+
+header .container nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+main {
+  width: 100%;
+}
+
+main .banner {
+  height: 352px;
+  background-image: url(https://static.wixstatic.com/media/93e8a3_9fa23196ddf6427a9da574e2b31a13d2~mv2.jpg/v1/fill/w_1583,h_352,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/93e8a3_9fa23196ddf6427a9da574e2b31a13d2~mv2.jpg);
+  font-size: 42px;
+  display: flex;
+  align-items: center;
+}
+
+main .banner .container {
+  line-height: 1.6em;
+  width: 100%;
+}
+
+main .banner .container h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 42px;
+}
+
+main .banner .fs34 {
+  font-size: 34px;
+}
+
+main .info {
+  width: 100%;
+  height: 464.78px;
+  background-color: #2b2b2b;
+}
+
+main .info .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+main .info .container .infoUpper {
+  font-size: 28px;
+}
+
+main .info .container .infoDown p a {
+  font-size: 20px;
+  font-weight: 900;
+  color: #00aef3;
+}
+
+main .courses {
+  height: 1485px;
+  background-color: #161616;
+}
+
+main .courses .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+main .courses .container .boxes {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 100%;
+}
+
+main .courses .container .boxes .box {
+  width: 300px;
+  height: 414px;
+  border: 1px solid #ffffffa1;
+  border-radius: 7px;
+}
+
+main .courses .container .boxes .box img {
+  border-radius: 6px 6px 0 0;
+}
+
+main .courses .container .boxTEXT {
+  padding-left: 23px;
+  padding-top: 36px;
+}
+
+main .courses .container .boxTEXT main .courses .container .boxTEXT .details {
+  display: flex;
+}
+
+main .courses .boxes .box .boxTEXT .details {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+main .courses .boxes .box .boxTEXT .details p a {
+  color: #00aeef;
+}
+
+main .carousele {
+  height: 363.39px;
+  width: 100%;
+  background-color: #2b2b2b;
+}
+
+main .accardione {
+  height: 484px;
+  background-color: #161616;
+}
+
+footer {
+  height: 228.39px;
+  width: 100%;
+  background-color: #1a1e1f;
+}
+
+footer .container .logos {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .container .footerTXT {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-top: 15px;
+}
+
+footer .container .leftTXT {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+footer .container .footerTXT button {
+  width: 162px;
+  height: 39px;
+  background-color: #00aef3;
+  border: none;
+  cursor: pointer;
+}
+
+.carousele__content,
+.carousele__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousele__inner {
+  gap: 100px;
+}
+
+.carousele__content {
+  max-width: 980px;
+  min-height: 225px;
+  width: 100%;
+  justify-content: center;
+  gap: 75px;
+}
+
+.carousele__button {
+  width: 20px;
+  height: 150px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.carousele__button.next {
+  transform: rotate(180deg);
+}
+
+.carousele__dots {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.carousele__dot {
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 6px;
+  height: 6px;
+}
